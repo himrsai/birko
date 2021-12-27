@@ -1,0 +1,113 @@
+
+body {
+    min-width: 1440px;
+    max-height: 835px;
+    height: 100%;
+    width: 100%;
+    
+    }
+    .login-main{
+        max-width: 720px;
+        max-height: 835px;
+        left: 720px;
+        top: 16%;
+        width: 47%;
+        opacity: 1;
+        position: absolute;
+        }
+        mat-card{
+        min-width: 40%;
+        }
+    .img-css {
+            width: 100px;
+            height: 100px;
+            -webkit-clip-path: circle(50.0% at 50% 50%);
+            clip-path: circle(50.0% at 50% 50%);
+            position: absolute;
+            left: 50%;
+            right: 22.36%;
+            top: 21.56%;
+            bottom: 69.22%;
+          }
+    .login-css {
+        height: 100%;
+    }
+    .logo-css {
+        position: absolute;
+        left: 10.43%;
+        right: 22.36%;
+        top: 21.56%;
+        bottom: 69.22%;
+        
+    }
+    .mat-card {
+        border-radius: 0% !important;
+        box-shadow: none!important;
+        position: static !important;
+        
+    }
+    .login-lable {
+        left: 53%;
+        position: absolute;
+        width: 76px;
+        height: 28px;
+        top: 123px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 28px;
+        text-align: center;
+    } 
+    mat-form-field{
+        width: 120%;
+    }
+    mat-card-actions {
+    margin-left: 48%;
+    }
+    mat-raised-button  {
+        background-color: #16909d !important;
+    }
+    .home-css{
+        position: absolute;
+        width: 100%;
+    }
+    .home-img {
+        background: rgba(14, 99, 159, 0.24);
+       
+        max-Width: 720px;
+        max-Height :835px;
+        width: 53%;
+        height: 621px;
+    }
+    .form-css {
+        position: absolute;
+        top: 620%;
+        width: 45%;
+        max-height: 835px;
+        max-width: 1440px;
+        bottom: 48.86%;
+        left: 27%;
+    }
+    ::ng-deep .redNoMatch
+    {
+       font: 500;
+      color:white !important;
+      background: #F44336 !important;
+    }
+    ::ng-deep snack-bar-container simple-snack-bar .mat-simple-snackbar-action {
+        color: black;
+      }
+    .my-snack-bar {
+        background-color: #E8EAF6;
+    }
+
+    .logout-css{
+        margin-right: -100%;
+        text-decoration: auto !important;
+        color: rgba(0, 0, 0, 0.4);
+    }
+    .primary-btn-color {
+        background-color: #0E639F !important;
+        color: white;
+    }

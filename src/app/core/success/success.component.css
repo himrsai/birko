@@ -1,0 +1,39 @@
+.circle-css {
+    left: 75%;
+    right: 5.56%;
+    bottom: 5.56%;
+    position: relative;
+    color: #0E639F;
+    top: 200px;
+}
+.success-css {
+left: 72%;
+right: 5.56%;
+bottom: 5.56%;
+position: relative;
+color: #000000;
+top: 232px;
+}
+.msg-css {
+position: absolute;
+width: 266px;
+height: 58px;
+left: 920px;
+top: 283px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+color: rgba(0, 0, 0, 0.6);
+}
+.ok-css {
+position: absolute;
+width: 113px;
+height: 36px;
+left: 72.5%;
+top: 382px;
+background: #0E639F;
+border-radius: 4px;
+}

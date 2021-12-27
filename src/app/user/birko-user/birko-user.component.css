@@ -1,0 +1,37 @@
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+::ng-deep  .mat-tab-label {
+  min-width: 0px !important;
+}
+
+td, th {
+  width: 20%;
+}
+.search-css
+{
+  width: 300px;
+}
+.adduser-css {
+  margin-left: 10px;
+}
+.seach-tab {
+  right: 0%;
+  top: 20%;
+  margin-left: 25%;
+  display:inline-block;
+}
+.user-tab{
+  display:inline-block;
+  margin-top: 2%;
+  margin-left: 7%;
+}
+.table-css {
+  width: 90%;
+  margin-left: 6.5%;
+}
