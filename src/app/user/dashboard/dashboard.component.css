@@ -1,41 +1,68 @@
 .navi-css {
-    height: 82px;
-    background: #0E639F;
+  height: 82px;
+  background: #0E639F;
+  width: 100%;
+  display: inline-flex;
 }
-.logo-css {
+/* .logo-css {
     position: fixed;
     margin-top: -3%;
     right: 87.71%;
-}
+} */
 .nav-linkbtn-css{
-    margin-top: 2%;
-    margin-left: 13%;
-}   
+  margin-left: 13%;
+  display: flex;
+}
 .mat-accent {
     color: #e7ff1d !important;
 }
-.profile-css {
+/* .profile-css {
     position: absolute;
 font-family: Roboto;
 font-style: normal;
 font-size: 16px;
 line-height: 19px;
-/* identical to box height */
+
 color: #FFFFFF;
 bottom: 67%;
-}
+} */
 .role-name-css{
     font-size: 11px;
 }
 .username-css {
-    position: absolute;
-    right: 11%;
-    top: 6%;
+  text-align: right;
+  margin-left: auto;
+  display: inline-flex;
+  font-size: 14px;
+  margin-right: 3%;
    }
-.profile-list-css {
+/* .profile-list-css {
     position: absolute;
     right: 2%;
-}
+} */
 ::ng-deep .mat-card-image:first-child {
     margin-top: 10%;
+}
+
+@media only screen and (max-width: 992px) {
+.nav-btn-xs {
+  padding: 0px 4px;
+  font-size: 12px;
+}
+img.mat-card-image {
+  width: 50px;
+}
+.username-css {
+  font-size: 12px;
+   }
+   .nav-linkbtn-css{
+    margin-left: 0;
+    display: flex;
+  }
+
+}
+@media only screen and (max-width: 676px) {
+.profile-css, .role-name-css{
+  display: none;
+}
 }

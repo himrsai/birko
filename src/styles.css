@@ -3,3 +3,148 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+body {
+  height: 100%;
+  width: 100%;
+
+  }
+  .login-main{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+      }
+      mat-card{
+      min-width: 40%;
+      }
+  /* .img-css {
+          width: 100px;
+          height: 100px;
+          -webkit-clip-path: circle(50.0% at 50% 50%);
+          clip-path: circle(50.0% at 50% 50%);
+          position: absolute;
+          left: 50%;
+          right: 22.36%;
+          top: 21.56%;
+          bottom: 69.22%;
+        } */
+  .login-css {
+      height: 100%;
+  }
+  /* .logo-css {
+      position: absolute;
+      left: 10.43%;
+      right: 22.36%;
+      top: 21.56%;
+      bottom: 69.22%;
+
+  } */
+  .mat-card {
+      border-radius: 0% !important;
+      box-shadow: none!important;
+      position: static !important;
+
+  }
+  /* .login-lable {
+      left: 53%;
+      position: absolute;
+      width: 76px;
+      height: 28px;
+      top: 123px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 28px;
+      text-align: center;
+  } */
+
+  mat-card-actions {
+  margin-left: 48%;
+  }
+  mat-raised-button  {
+      background-color: #16909d !important;
+  }
+  .home-css{
+      width:50%;
+      float: left;
+
+  }
+  .home-img {
+    background: url("assets/images/background.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  /* .form-css {
+      position: absolute;
+      top: 620%;
+      width: 45%;
+      max-height: 835px;
+      max-width: 1440px;
+      bottom: 48.86%;
+      left: 27%;
+  } */
+  ::ng-deep .redNoMatch
+  {
+     font: 500;
+    color:white !important;
+    background: #F44336 !important;
+  }
+  ::ng-deep snack-bar-container simple-snack-bar .mat-simple-snackbar-action {
+      color: black;
+    }
+  .my-snack-bar {
+      background-color: #E8EAF6;
+  }
+
+  .logout-css{
+      text-decoration: auto !important;
+      color: rgba(0, 0, 0, 0.4);
+  }
+  .primary-btn-color {
+      background-color: #0E639F !important;
+      color: white;
+  }
+  .mat-form-field{
+    width: 100%;
+  }
+  .pull-right{
+    float: right;
+  }
+  .forgot-pswrd{
+    width: 100%;
+    text-align: right;
+    display: block;
+  }
+  @media only screen and (max-width: 1200px) {
+    .home-css{
+      width: 100%;
+      float: none;
+      display: block;
+  }
+  .home-img {
+    background: url("assets/images/background.png");
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.login-main{
+width: 100%;
+float: none;
+display: block;
+text-align: center;
+margin-top: 0;
+margin-left: 0;
+margin-top: 4%;
+  }
+  mat-card{
+  min-width: 40%;
+  }
+  }

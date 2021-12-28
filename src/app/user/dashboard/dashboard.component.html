@@ -1,27 +1,30 @@
+
+<div class="col">
+  <div class="row">
+
+
 <nav class="navbar navbar-toggleable-xs">
     <mat-toolbar color="primary" class="navi-css">
-      <span class="navbar-spacer"></span>
-     
-  
-      <span class="navbar-spacer"></span>
+
       <div fxShow="true" fxHide.lt-md="true" class="nav-linkbtn-css">
         <button mat-button class="logo-css" ><img mat-card-image src="assets/images/logo.png"  alt="Birko" ></button>
-        <button mat-button routerLink="/dashboard/user"  routerLinkActive="mat-accent" >BIRKO USER</button>
-        <button mat-button routerLink="/dashboard/customer" routerLinkActive="active">CUSTOMERS</button>
-        <button mat-button routerLink="/dashboard/documents">ALL DOCUMENTS</button>
-        <button mat-button routerLink="/dashboard/event-logs">EVENT LOGS</button>      
+        <button mat-button class="nav-btn-xs" routerLink="/dashboard/user"  routerLinkActive="mat-accent" >BIRKO USER</button>
+        <button mat-button class="nav-btn-xs" routerLink="/dashboard/customer" routerLinkActive="active">CUSTOMERS</button>
+        <button mat-button class="nav-btn-xs" routerLink="/dashboard/documents">ALL DOCUMENTS</button>
+        <button mat-button class="nav-btn-xs" routerLink="/dashboard/event-logs">EVENT LOGS</button>
       </div>
-      <span class="username-css" align="end">
+      <div class="username-css" align="end">
         <span class="profile-css" >
           Prasanth  kumar
         </span>
         <span class="role-name-css">
           Admin
         </span>
-      </span>
-      <button mat-icon-button class="example-icon profile-list-css"  [matMenuTriggerFor]="menu">
-        <mat-icon>keyboard_arrow_down</mat-icon>
-      </button>
+        <button mat-icon-button class="example-icon profile-list-css"  [matMenuTriggerFor]="menu">
+          <mat-icon>keyboard_arrow_down</mat-icon>
+        </button>
+      </div>
+
       <mat-menu #menu="matMenu">
         <button mat-menu-item  (click)="openDialog()">
           <!-- <mat-icon>dialpad</mat-icon> -->
@@ -37,5 +40,7 @@
         </button>
       </mat-menu>
     </mat-toolbar>
+  </nav>
+</div>
+</div>
     <router-outlet></router-outlet>
-    </nav>
