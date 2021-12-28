@@ -1,4 +1,5 @@
 # Birko
+![image](https://user-images.githubusercontent.com/25241116/147554327-6d61e7dd-cad8-4336-82a5-7eabd1f846da.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
 
