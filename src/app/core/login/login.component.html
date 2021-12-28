@@ -1,13 +1,15 @@
+<div class="wrapper">
 <div class ="home-css">
-    <img mat-card-image class= "home-img" src='assets/images/background.png'>
+  <div class="home-img"> </div>
+    <!-- <img mat-card-image class= "home-img" src='assets/images/background.png'> -->
 </div>
 <div class="login-main" >
   <div class="logo-css">
-    <div >
+    <div>
         <img class="img-css" src="assets/images/logo.png" />
         <div class="login-lable"> Login</div>
-    </div>   
-  </div>  
+    </div>
+  </div>
   <mat-card  class="login-css" fxLayout="column" fxLayoutAlign="end center" align="center" >
   <form [formGroup]="loginForm" class="form-css" (ngSubmit)="onSubmit()" >
     <mat-card-content fxLayout="column">
@@ -22,11 +24,14 @@
         <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
       </button>
     </mat-form-field>
-    <mat-label align="end" ><a href="/forgot-password" class="logout-css">Forgot Password?</a></mat-label>
+    <mat-label class="forgot-pswrd">
+  <a href="/forgot-password" class="logout-css">Forgot Password?</a>
+    </mat-label>
     </mat-card-content>
     <mat-card-actions align="start">
       <button mat-raised-button class="primary-btn-color">LOGIN</button>
     </mat-card-actions>
   </form>
-  </mat-card> 
+  </mat-card>
+</div>
 </div>
